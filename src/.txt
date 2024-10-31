@@ -1,0 +1,11 @@
+updater function is a function passed as an argument to setState() to update a previous state 
+
+const [state,setState] = useSate(0)
+
+function updater(){
+    setState(st => st + 1)
+      setState(st => st + 1)
+        setState(st => st + 1)
+}
+
+it automtically add 3 because we changed state name into st and used a function so it will update state's previous value
