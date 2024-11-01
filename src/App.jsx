@@ -1,3 +1,4 @@
+import ArrayOfObjects from './ArrayOfObjects'
 import ArrayState from './ArrayState'
 import Colorpicker from './Colorpicker'
 import styles from './Div.module.css' //modules styles
@@ -20,6 +21,7 @@ function App() {
      <Colorpicker/>
      <ObjectState/>
      <ArrayState/>
+     <ArrayOfObjects/>
     </>
   )
 }
